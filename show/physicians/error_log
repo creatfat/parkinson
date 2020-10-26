@@ -1,0 +1,143 @@
+[20-Oct-2020 13:25:03 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:25:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:26:14 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:26:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:34:02 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:34:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:00 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:37 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:37 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:38 UTC] PHP Warning:  require_once(/home/plustori/public_html/management/../connect/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/management/physicians_manage.php on line 4
+[20-Oct-2020 13:35:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/plustori/public_html/management/../connect/database.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/management/physicians_manage.php on line 4
+[22-Oct-2020 22:51:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/plustori/public_html/show/physicians/physician.php on line 294
+[22-Oct-2020 22:52:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/plustori/public_html/show/physicians/physician.php on line 257
+[22-Oct-2020 23:10:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'plustori_leila'@'cloud70.mizbanfadns.net' (using password: NO) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', 'plustori_leila', '')
+#1 /home/plustori/public_html/show/physicians/edit.php(2): require_once('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:30:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#2 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:40:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/edit.php(2): require_once('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:43:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(11): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:43:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:47:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:48:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:48:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:48:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:49:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:52:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'cloud70.mizbanfadns.net' (using password: YES) in /home/plustori/public_html/connect/connect.php:2
+Stack trace:
+#0 /home/plustori/public_html/connect/connect.php(2): PDO->__construct('mysql:host=86.1...', '', 'plustori_leila')
+#1 /home/plustori/public_html/show/physicians/note.php(2): include('/home/plustori/...')
+#2 /home/plustori/public_html/show/physicians/physician.php(167): include('/home/plustori/...')
+#3 {main}
+  thrown in /home/plustori/public_html/connect/connect.php on line 2
+[22-Oct-2020 23:55:17 UTC] PHP Warning:  include(../mainpage.php): failed to open stream: No such file or directory in /home/plustori/public_html/show/physicians/diagrams.php on line 17
+[22-Oct-2020 23:55:17 UTC] PHP Warning:  include(../mainpage.php): failed to open stream: No such file or directory in /home/plustori/public_html/show/physicians/diagrams.php on line 17
+[22-Oct-2020 23:55:17 UTC] PHP Warning:  include(): Failed opening '../mainpage.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/show/physicians/diagrams.php on line 17
+[22-Oct-2020 23:58:02 UTC] PHP Warning:  include(../mainpage.php): failed to open stream: No such file or directory in /home/plustori/public_html/show/physicians/diagrams.php on line 17
+[22-Oct-2020 23:58:02 UTC] PHP Warning:  include(../mainpage.php): failed to open stream: No such file or directory in /home/plustori/public_html/show/physicians/diagrams.php on line 17
+[22-Oct-2020 23:58:02 UTC] PHP Warning:  include(): Failed opening '../mainpage.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/show/physicians/diagrams.php on line 17

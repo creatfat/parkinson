@@ -1,0 +1,7 @@
+[20-Oct-2020 13:38:55 UTC] PHP Warning:  include(../api/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/googlelogin/gauth.php on line 3
+[20-Oct-2020 13:38:55 UTC] PHP Warning:  include(../api/database.php): failed to open stream: No such file or directory in /home/plustori/public_html/googlelogin/gauth.php on line 3
+[20-Oct-2020 13:38:55 UTC] PHP Warning:  include(): Failed opening '../api/database.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/plustori/public_html/googlelogin/gauth.php on line 3
+[20-Oct-2020 13:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/plustori/public_html/googlelogin/gauth.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/plustori/public_html/googlelogin/gauth.php on line 33
